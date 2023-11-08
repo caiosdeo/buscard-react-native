@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#dddddd"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#dddddd"
+      },
+      "package": "com.csoliveira.BusCardApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb2b4fc7-500f-4ad3-9bd6-a40eeac63381"
+      }
     }
   }
 }
